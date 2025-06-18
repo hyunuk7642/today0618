@@ -1,0 +1,28 @@
+/* 전체 배경과 글씨 디자인 */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #d0e7f9, #ffffff);
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #1a1a1a;
+}
+
+h1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 2rem;
+  text-shadow: 0 0 5px white;
+}
+
+/* 캔버스는 화면 전체 차지 */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
